@@ -1,0 +1,16 @@
+@font-face {
+    font-family: alien;
+    src: url(../Resources/Cybertronic.ttf);
+ }
+
+body {
+
+    background-image: url("../Resources/404.png");
+    
+}
+a button {
+  text-align: center;
+  font-size: large;
+  font-family: alien;
+  
+}

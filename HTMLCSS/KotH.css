@@ -1,0 +1,100 @@
+@font-face {
+    font-family: BNR;
+    src: url(../Resources/BNR.ttf);
+ }
+
+ * {
+    font-family: BNR;
+    
+
+ }
+
+header {
+    width: 100%
+}
+
+.head {
+    display: inline-block;
+    background-color: #e9e9e7;
+    font-size: 22px;
+    position: static;
+    border: black 1px ridge;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+
+   
+}
+.head2 {
+    display: inline-block;
+    margin-top: 25px;
+    border: rgb(30, 30, 30) 5px solid;
+    border-radius: 35px;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    margin-right: 50px;
+    padding:4px;
+
+}
+.title {
+    width: 100%;
+    font-size: 40px;
+    left: 0;
+    background-color: #e9e9e7;
+    border: black 1px solid;
+    text-align: center;
+    background-image: url("../Resources/gstripe.jpg");
+}
+
+body {
+    background-color: #c5413f;
+    background-image: url("../Resources/redstars.jpg");
+}
+
+a img {
+    height:150px;
+    display: inline-block;
+    width:100px;
+    border: black 1px solid;
+    margin: 10px 10px 1px 10px;
+}
+a img:hover {
+    width:150px;
+    height: 200px;px;
+
+}
+
+a img:active {
+    border: red 5px solid;
+    opacity: .5;
+}
+
+p {
+    color: #e9e9e7;
+    position:relative;
+    left: 13px;
+    display: block;
+    width: fit-content;
+    font-size: large;
+    font-family: BNR;
+    border: #e9e9e7 dotted 3px;
+
+}
+
+.space {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #e9e9e7 ;
+}

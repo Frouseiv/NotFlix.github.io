@@ -1,0 +1,3 @@
+Logo red #df1b18
+background for off white: #e9e9e7
+bg red: #c5413f
